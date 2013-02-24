@@ -1,10 +1,10 @@
 # Medici
 
-Medici is a simple library for obtaining [real-time](http://www.google.com/googlefinance/disclaimer/#realtime) stock quotes and historical data from the (undocumented) Google Finance API.
+Medici is a simple library for obtaining [real-time](http://www.google.com/googlefinance/disclaimer/#realtime) stock quotes and historical data from the (undocumented) [Google Finance API](http://developers.google.com/finance).
 
 ## Installation
 
-Medici is packaged as a Gem. Therefore it can be installed globally using RubyGems:
+Medici is packaged as a Gem. Therefore it can be installed manually using RubyGems:
 
     $ gem install medici
 
@@ -25,10 +25,10 @@ Quotes and historical data are represented by `Medici::Stock` and `Medici::Histo
 ``` ruby
 require 'medici'
 
-apple = Medici.quote('AAPL')
+google = Medici.quote('GOOG')
 tech = Medici.quotes(['GOOG', 'AAPL', 'MSFT', 'FB'])
 
-puts apple.last
+puts google.last
 puts tech.max_by(&:market_cap).company
 ```
 
