@@ -2,6 +2,7 @@ require 'net/http'
 require 'xmlsimple'
 require 'date'
 require 'time'
+require 'medici/errors'
 
 module Medici
   class Stock

@@ -1,4 +1,5 @@
 require 'date'
+require 'medici/errors'
 
 module Medici
   class Historical

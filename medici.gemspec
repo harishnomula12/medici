@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'medici'
-  s.version     = '0.1.0'
+  s.version     = '0.1.1'
   s.date        = '2013-02-24'
   s.summary     = 'Simple real-time stock quotes from the Google Finance API.',
   s.description = 'Medici is a library for obtaining stock quotes and historical stock data using the undocumented Google Finance API.',
