@@ -1,6 +1,6 @@
 # Medici
 
-Medici is a simple library for obtaining real-time stock quotes and historical data from the (undocumented) Google Finance API.
+Medici is a simple library for obtaining [real-time](http://www.google.com/googlefinance/disclaimer/#realtime) stock quotes and historical data from the (undocumented) Google Finance API.
 
 ## Installation
 
@@ -44,3 +44,7 @@ end
 
 january_change = january.last.close - january.first.close
 ```
+
+## License
+
+Medici is released under the [MIT License](http://www.opensource.org/licenses/MIT).
