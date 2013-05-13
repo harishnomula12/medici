@@ -6,7 +6,7 @@ require 'medici/errors'
 
 module Medici
   class Stock
-    API_BASE_URL = 'http://www.google.com/ig/api?'
+    API_BASE_URL = 'https://www.google.com/ig/api?'
 
     PARSERS = {
       identity: lambda { |_| _ },
